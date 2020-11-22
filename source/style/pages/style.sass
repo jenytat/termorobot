@@ -1,0 +1,286 @@
+body
+    font-family: sans-serif
+#mobileheader
+    margin: 0
+    padding: 0
+    position: relative
+    height: auto
+    overflow: hidden
+    z-index: 2997
+.mobileheader-v1
+    background: #fff
+    border-bottom: 1px solid #f5f5f5
+#mobileheader *[class^=mobileheader-]
+    height: 100%
+    width: 100%
+    color: #222
+#mobileheader .right-icons
+    height: 100%
+    padding-right: 5px
+    margin-left: -15px
+.pull-right
+    float: right
+.mobile__top
+    background: #fff
+    bbox-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15)
+    height: 48px
+    display: flex
+    align-items: center
+    justify-content: space-between
+#mobileheader .wrap_icon
+    display: table-cell
+    padding-right: 15px
+    padding-left: 15px
+    vertical-align: middle
+    line-height: 48px
+.twosmallfont
+    font-size: 0.867em
+    line-height: 18px
+#mobileheader .inline-search-show
+    border: none
+    background: none
+    padding: 0
+button
+    margin: 0
+    font-family: inherit
+#mobileheader .inline-search-show .svg-inline-search
+    top: -2px
+.svg
+    display: inline-block
+    vertical-align: middle
+    position: relative
+    background-repeat: no-repeat
+    background-position: center center
+.svg svg
+    display: block
+.mobile__city
+    margin-left: 19px
+    float: left
+    cursor: pointer
+    height: 100%
+    display: flex
+    align-items: center
+    font-size: 12px
+    line-height: 14px
+    color: #222222
+    & svg:first-child
+        margin-right: 8px
+    & svg:last-child
+        margin-left: 4px
+.pull-left
+    float: left
+.mobile__buttom
+    background: #FFFFFF
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15)
+    height: 66px
+#mobileheader .burger
+    height: 100%
+    width: 58px
+    position: relative
+    cursor: pointer
+#mobileheader .burger .svg-inline-burger
+    width: 18px
+    height: 16px
+    min-width: 18px
+    min-height: 16px
+    position: absolute
+    left: 50%
+    top: 50%
+    margin: -8px 0 0 -9px
+#mobileheader .logo-block
+    height: 100%
+    padding: 0 5px 0 0
+#mobileheader .logo
+    max-width: 138px
+    line-height: 66px
+    height: 100%
+    & a
+        display: flex
+        height: 100%
+        align-items: center
+        justify-content: center
+#mobileheader .logo img
+    max-height: 100%
+    max-width: 100%
+.mobile__phone
+    height: 100%
+    margin-right: 19px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    & a
+        text-decoration: none
+        display: block
+        &:first-child
+            font-size: 14px
+            line-height: 16px
+            color: #222222
+            font-weight: bold
+            text-align: right
+            margin-bottom: 5px
+        &:last-child
+            font-size: 12px
+            line-height: 14px
+            color: #222222
+            text-align: right
+#footer
+    background: #002062
+.footer__mobile
+    display: none
+.footer__row
+    display: flex
+    justify-content: space-between
+    padding: 29px 0 30px 0
+    margin: 0 20px
+    border-bottom: 1px solid #A7A7A7
+    &:last-child
+        border-bottom: 0
+.title
+    margin-bottom: 18px
+    & a
+        text-decoration: none
+        font-size: 14px
+        line-height: 16px
+        color: #FFFFFF
+        font-weight: bold
+        transition: all .4s ease-in-out
+        &:hover
+            opacity: .8
+.wrap
+    display: flex
+    flex-wrap: wrap
+    & a
+        text-decoration: none
+        display: block
+        width: 45%
+        margin-bottom: 13px
+        color: #A7A7A7
+        font-size: 14px
+        line-height: 16px
+        transition: all .4s ease-in-out
+        &:hover
+            color: #fff
+.footer__block-small .wrap a
+    width: 100%
+.footer__block
+    width: 100%
+.footer__phone, .footer__mail
+    width: 50%
+    box-sizing: border-box
+    & a
+        width: 100%
+.footer__adress, .footer__service
+    padding-left: 7px
+    box-sizing: border-box
+.footer__phone
+    & a
+        display: flex
+        align-items: center
+        font-weight: bold
+        font-size: 14px
+        line-height: 16px
+        color: #FFFFFF
+        margin-bottom: 0
+    & svg
+        margin-right: 8px
+    & p
+        margin: 0
+        padding-top: 7px
+        font-size: 12px
+        line-height: 14px
+        color: #A7A7A7
+        & span
+            color: #00aeef
+.footer__adress
+    width: 50%
+    & p
+        margin: 0
+        font-size: 14px
+        line-height: 16px
+        color: #FFFFFF
+        font-weight: bold
+    & svg
+        margin-right: 8px
+.footer__mail
+    margin-top: 19px
+    & a
+        display: flex
+        align-items: center
+        font-weight: bold
+        font-size: 14px
+        line-height: 16px
+        color: #FFFFFF
+        margin-bottom: 0
+    & svg
+        margin-right: 8px
+.footer__service
+    width: 50%
+    margin-top: 13px
+    & p
+        margin: 0
+        color: #F16522
+        font-weight: bold
+        font-size: 11px
+        line-height: 14px
+        text-transform: uppercase
+        padding-bottom: 3px
+    & a
+        display: flex
+        width: 100%
+        align-items: center
+        font-weight: bold
+        font-size: 14px
+        line-height: 16px
+        color: #FFFFFF
+        margin-bottom: 0
+.table-wrap
+    overflow-x: auto
+@media(max-width: 767px)
+    .footer__mobile
+        display: block
+@media (max-width: 575px)
+    .advantages__col
+        width: 50%
+@media(max-width: 530px)
+    .service__col
+        width: 50%
+    .catalog.sections .items:not(.services) > div
+        width: 50%
+        float: left
+    .catalog.section .col-xs-12
+        width: 50%
+        padding: 0 5px
+    .catalog.item-views.list .item
+        padding: 24px 11px
+    .catalog.item-views.list .text .col-xs-12
+        width: 100%
+    .catalog.item-views.list .item .title
+        font-size: 14px
+        line-height: 16px
+    .float-banners.v3 .items.services >div
+        width: 50%
+    .float-banners.v3 .items.services .item .info
+        padding: 0px 9px 18px
+    .float-banners.v3 .items.services .item .title
+        font-size: 14px;
+        line-height: 16px;
+    .float-banners.v3 .items.services .item .text ul li
+        font-size: 12px;
+        line-height: 14px;
+    .table-type-block.item-views.table-elements.news2 .row>div
+        width: 50%
+    .item-views.table-elements.news2 .item .body-info
+        padding: 16px 8px 11px 8px
+    .item-views.table-elements.news2 .item .body-info .title
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 29px
+    .item-views.table-elements.news2 .item .period span
+        font-size: 11px
+        line-height: 13px
+    h2
+        font-size: 24px
+        line-height: 28px
+    p 
+        font-size: 14px
+        line-height: 18px
